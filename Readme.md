@@ -12,7 +12,7 @@ Runs script on RouterOs snmp agent (MikroTik Router).
 
 ### Scripts on router
 
-/system script print command lists scripts availabe on router. E.g.
+`/system script print` command lists scripts availabe on router. E.g.
 
 ```
 [admin@hgw] /system script> print
