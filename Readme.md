@@ -29,6 +29,7 @@ How to create scripts? See https://wiki.mikrotik.com/wiki/Manual:Scripting
 
 Make sure that net-snmp is configured with the correct community (snmp v1 and v2) or username / password(s) (authentication and encryption password).
 This community or user should have write privileges. Therefore it's advisable to use snmp v3 and to restrict access on agent to the manager.
+`snmpconf` can help create a snmp config file.
 
 ```
 [admin@hgw] /snmp community> print value-list
