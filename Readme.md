@@ -44,6 +44,15 @@ This community or user should have write privileges. Therefore it's advisable to
         encryption-password:                 ******
 ```
 
+Change hostname of router (agent) in script:
+
+```
+use constant AGENT => 'gateway';
+```
+ 
+Change 'gateway' info the hostname or ip address of your router.
+
+
 ```
 $ run_script_on_gateway.pl
 
